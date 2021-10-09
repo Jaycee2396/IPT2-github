@@ -190,7 +190,7 @@ body{
             <h3>Upside down</h3>
             <audio controls>
                 <source src="upside down by 6cyclemind.mp3">
-                        your browser doesn`t support audi
+                        your browser doesn`t support audio
             </audio>
             </div>
 </body>
