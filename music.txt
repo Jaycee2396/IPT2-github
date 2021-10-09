@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Music page</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<style>
+body{
+    background-image: url(song.jpg);
+    background-color: #74ff14;
+}
+.header{
+    width: 100%;
+    position: fixed;
+}
+.header nav{
+    width: 100%;
+    background: black;
+    overflow: auto;
+}
+.header ul{
+    margin:0;
+    padding:60px 0 0 250px;
+    list-style: none;
+}
+.header li{
+    float: left;
+}
+.logo img{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.header nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color: #74ff14;
+    text-align:center;
+}
+.header nav a:hover {
+    background: purple;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.music{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 600px;
+    color: #74ff14;
+    font-size: 25px;
+    text-shadow: 3px -3px 0 #787878;
+}
+.list{
+    text-align: center;
+    margin-top: 240px;
+    margin-left: -900px;
+    color: orange;
+}
+.list2{
+    text-align: center;
+    margin-top: 240px;
+    margin-left: 50px;
+    color: orange;
+}
+.list3{
+    text-align: center;
+    margin-top: 240px;
+    margin-left: 50px;
+    color: orange;
+}
+.list4{
+    text-align: center;
+    margin-top: 240px;
+    margin-left: 50px;
+    color: orange;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="logo"><a href="#"><img src="logo.jpg"></a>
+</div>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Music.html">Music</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Register.html">Register</a></li>
+        <li>
+        <form class="search-box" action="" method="">
+        <input type="text" name="" value="" placeholder="Search">
+        <button class="search-btn" type="button" name="button">
+        <i class="fas fa-search"></i>
+        </button>
+        </form>
+        </li>
+    </ul>
+</nav>
+</header>  
+    <div class="music"><h1>&#127911;My Song list&#127925;</h1></div>
+        <div class="list">
+        <h3>Magbalik</h3>
+        <audio controls>
+            <source src="magbalik - callalily w- lyrics.mp3">
+                your browser doesn`t support audio
+        </audio>
+        <h3>See You Again</h3>
+        <audio controls>
+            <source src="[No RAP version] See You Again - Charlie Puth with Lyrics.mp3">
+                your browser doesn`t support audio
+        </audio>
+        <h3>End Up Hear</h3>
+        <audio controls>
+            <source src="5 Seconds Of Summer -End Up Here.mp3">
+                your browser doesn`t support audio
+        </audio>
+        <h3>Marry your daughter</h3>
+        <audio controls>
+            <source src="+Marry+Your+Daughter++[animation].mp3">
+                your browser doesn`t support audio
+        </audio>
+        </div>
+        <div class="list2">
+            <h3>Martyr Nyebera</h3>
+            <audio controls>
+                <source src="Martyr Nyebera - Kamikazee [Lyrics].mp3">
+                    your browser doesn`t support audio
+            </audio>
+            <h3>Nobody Better</h3>
+            <audio controls>
+                <source src="Nobody Better - Z Ft Fetty Wap - Lyric video.mp3">
+                    your browser doesn`t support audio
+            </audio>
+            <h3>One Call Away</h3>
+            <audio controls>
+                <source src="Charlie Puth - One Call Away [Official Video].mp3">
+                    your browser doesn`t support audio
+            </audio>
+            <h3>In Love Ako Sa 'Yo</h3>
+            <audio controls>
+                <source src="Darren Espanto - In Love Ako Sa 'Yo.mp3">
+                    your browser doesn`t support audio
+            </audio>
+            </div>
+            <div class="list3">
+            <h3>Marikit</h3>
+            <audio controls>
+                 <source src="Marikit - Juan, Kyle (Lyrics) Ikaw ang binibini na ninanais ko.mp3">
+                        your browser doesn`t support audio
+                </audio>
+            <h3>Binibini</h3>
+            <audio controls>
+                <source src="Matthaios - Binibini (Official Lyric Video) ft. Calvin De Leon.mp3">
+                        your browser doesn`t support audio
+            </audio>
+            <h3>Chinita Girl</h3>
+            <audio controls>
+                <source src="Lil Vinceyy ft. Guel - Chinita Girl (Official Music Video).mp3">
+                        your browser doesn`t support audio
+            </audio>
+            <h3>TINOTOYO</h3>
+            <audio controls>
+                <source src="TINOTOYO - Jr.Crown & Thome ft. Bomb D (Official Audio).mp3">
+                        your browser doesn`t support audio
+            </audio>
+                </div>
+            <div class="list4">
+            <h3>Beautiful Soul</h3>
+             <audio controls>
+                 <source src="Jesse McCartney - Beautiful Soul (Official Video).mp3">
+                        your browser doesn`t support audio
+            </audio>
+            <h3>Makapiling ka</h3>
+            <audio controls>
+                <source src="Sponge Cola - Makapiling ka Lyrics.mp3">
+                         your browser doesn`t support audio
+            </audio>
+            <h3>Imahinasyon</h3>
+            <audio controls>
+                <source src="TJ Monterde - Imahinasyon (Official Music Video).mp3">
+                        your browser doesn`t support audio
+            </audio>
+            <h3>Upside down</h3>
+            <audio controls>
+                <source src="upside down by 6cyclemind.mp3">
+                        your browser doesn`t support audi
+            </audio>
+            </div>
+</body>
+</html>
