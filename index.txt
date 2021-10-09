@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JAYCEE-website</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<style>
+*{
+    margin: 0; padding: 0; border: 0; box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: Arial;
+}
+.header{
+    width: 100%;
+    position: fixed;
+}
+nav{
+    width: 100%;
+    background: black;
+    overflow: auto;
+}
+ul{
+    margin:0;
+    padding:60px 0 0 250px;
+    list-style: none;
+}
+li{
+    float: left;
+}
+.logo img{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color: #74ff14;
+    text-align:center;
+}
+nav a:hover {
+    background: purple;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+#container{
+    min-height: 100%;
+    background-color: black;
+    width: 100%; margin: 50px 100px;
+    padding: 1em;
+    border: 4px solid #74ff14;
+}
+h1, h2{
+    margin: 1em 0; padding: .4em;
+    background-color: rgba(30,30,30,.5);
+    color: #74ff14;
+}
+h1{
+    text-align: center;
+    border-top: 1px dotted orange;
+    border-bottom: 1px dotted orange;
+    font-size: 3em;
+    letter-spacing: 1em;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin-top: 100px;
+}
+h2{
+    text-align: left;
+    font-size: 2.5rem;
+}
+.vidwrappper{
+    width: 100%; max-width: 800px;
+    margin: 3em auto;
+    border: 5px solid yellowgreen;
+    position: relative;
+}
+.vidcontainer{
+    width: 100%; max-width: 100%; height: 0;
+    padding-bottom: 56.25%; /* 720/1280 */
+    border: 5px solid orange;
+}
+.videocontainer iframe{
+    width: 100%; max-width: 100%; height: 100%;
+    position: absolute; top: 0; left: 0;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="logo"><a href="#"><img src="logo.jpg"></a>
+</div>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Music.html">Music</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Register.html">Register</a></li>
+        <li>
+        <form class="search-box" action="" method="">
+        <input type="text" name="" value="" placeholder="Search">
+        <button class="search-btn" type="button" name="button">
+        <i class="fas fa-search"></i>
+        </button>
+        </form>
+        </li>
+    </ul>
+</nav>
+</header>
+<div id="container">
+    <h1>JAYCEE VIDEOS</h1>
+    
+    <h2>TiKToK</h2>
+
+    <div class="vidwrapper">
+        <div class="vidcontainer">
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/SfI010WctSE" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/y5k9zMTlOEg" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/c9XQYkFbk58" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/KENzSZUlkl4" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/aZ2A5YBrWdU" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/b1IpxwmVkxc" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+
+    <h2>Kapuso Mo, Jessica Soho</h2>
+        <div class="vidwrapper">
+        <div class="vidcontainer">
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/SM4O6gKp058" frameborder="0" allow="accelerometer;
+             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="440" height="400" src="https://www.youtube.com/embed/FMz_SlXVtek" frameborder="0" allow="accelerometer; 
+             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="440" height="400" src="https://www.youtube.com/embed/0yzdnxB-qsk" frameborder="0" allow="accelerometer; 
+             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="440" height="350" src="https://www.youtube.com/embed/KvVP3KjPC8g" frameborder="0" allow="accelerometer; 
+             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="440" height="350" src="https://www.youtube.com/embed/sXvo08zdMDM" frameborder="0" allow="accelerometer; 
+             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="440" height="350" src="https://www.youtube.com/embed/QVw8_Aq7cj4" frameborder="0" allow="accelerometer; 
+             autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </div>
+        </div>
+    <h2>Raffy Tulfo in Action</h2>
+        <div class="vidwrapper">
+        <div class="vidcontainer">
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/MnBBRa5vYXY" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/8z-cakJgkY0" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/Vg45GsYoJxw" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/J5hSZlRcrSw" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/TuDyfSGaYnA" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/2X5zIOLYc7s" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </div>
+        </div>
+    <h2>Favorite Songs</h2>
+        <div class="vidwrapper">
+        <div class="vidcontainer">
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/EqwXmiLrxxI" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/BYJ23QAx_L8" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/DD6uR8-pqlc" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/Vx42hHE3aAM" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/phEEic9T4qU" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/72FLyNg0E2I" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+        </div>
+        </div>
+    <h2>Pinoy World Class talent</h2>
+        <div class="vidwrapper">
+        <div class="vidcontainer">
+            <iframe width=440 height="400" src="https://www.youtube.com/embed/bkIOQ6STYOg" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/hcgvYr2nlrk" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="400" src="https://www.youtube.com/embed/H7YRRaOgpUk" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/EHw40PLjaqY" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/zyuWxbVDGUo" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="440" height="350" src="https://www.youtube.com/embed/t9YviwtKCzU" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe
+        </div>
+        </div>    
+    </div>
+</body>
+</html>
